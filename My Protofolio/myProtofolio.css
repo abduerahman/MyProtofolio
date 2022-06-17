@@ -65,20 +65,23 @@ a:hover{
     font-size: 1.5em;
     color:white;
 }
+.aboutme{
+    background-color: #DEB887;
+}
 .title{
     display: flex;
     justify-content: center;
-    padding-top: 0.925em;
     font-size: 4em;
 }
 .info{
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    text-align: center;
 }
 .info img{
-    width:50%;
-    padding-left: 10%;
+    width:30%;
+    margin-right: 65%;
 }
 .thing-that-do{
     display: flex;
@@ -98,11 +101,15 @@ a:hover{
     padding: 25px;
     transition: 1s ease;
 }
+#Services{
+    background-color: 	#F4A460;
+}
 .aboutme .info .content{
  background-color: white;
  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
  margin: 10px;
  padding: 25px;
+ width: 25%;
 }
 .things h6{
     padding-top: 10px;
@@ -142,4 +149,3 @@ footer{
     font-size: 2em;
     color:#F5DEB3	;
 }
-
