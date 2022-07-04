@@ -31,7 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200p;
+    padding: 10px 100px;
 }
 
 .main a{
@@ -42,7 +42,7 @@ header{
 }
 
 #navpar{
-    padding: 30px 200px;
+    padding: 30px 100px;
 }
 #navpar a{
     padding-right: 10px;
@@ -56,7 +56,7 @@ a:hover{
     padding-top:25%;
     padding-left: 35%;
 }
-#info h2{ 
+#info h2{
     font-size: 2.5em;
     color:white;
 }
@@ -148,4 +148,54 @@ footer{
     padding:10px;
     font-size: 2em;
     color:#F5DEB3	;
+}
+@media(max-width: 1400px){
+    .main .logo{
+        letter-spacing: 1px;
+        padding: 1px 10px;
+    }
+    header{
+        padding: 1px 10px;
+    }
+    #navpar{
+        padding: 1px 10px;
+    }
+    #info{
+        padding-top: 50%;
+        padding-right: 20%;
+    }
+    #info h2{
+        padding-left: 10%;
+    }
+    #info h4{
+        padding-top: 20px;
+    }
+    .info{
+        width: 100%;
+    }
+    .info img{
+        width: 60%;
+    }
+    #content1{
+        width: 50%;
+    }
+}
+@media (max-width: 604px){
+    body{
+        font-size: 10px;
+    }
+    #info{
+        padding-left: 5%;
+        font-size: 0.5em;
+    }
+    .logo a{
+        padding: 0px;
+    }
+    header{
+        padding: 1px;
+    }
+    .things img{
+        width:100px;
+        height: 150px;
+    }
 }
